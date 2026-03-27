@@ -106,8 +106,8 @@
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=RickelmeDSC&show_icons=true&theme=dark" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RickelmeDSC&layout=compact&theme=dark" />
+ <img height="170" src="https://github-readme-stats.vercel.app/api?username=RickelmeDSC&show_icons=true&theme=dark" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RickelmeDSC&layout=compact&theme=dark" />
 </p>
 
 <p align="center">
