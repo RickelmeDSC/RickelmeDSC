@@ -138,7 +138,7 @@ Tenho foco em construir sistemas reais, com estrutura sólida e orientados a dad
 
 📩 Contato:
 
-* LinkedIn: (adicione aqui)
-* Email: (adicione aqui)
+* LinkedIn: https://www.linkedin.com/in/rickelme-david-75630b203/
+* Email: rickelmepe@gmail.com
 
 ---
