@@ -5,49 +5,47 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/RickelmeDSC">
-    <img src="https://komarev.com/ghpvc/?username=RickelmeDSC&color=blue" />
-  </a>
+  <a href="https://github.com/RickelmeDSC">GitHub</a> •
+  <a href="https://www.linkedin.com/in/SEU-LINKEDIN">LinkedIn</a> •
+  <a href="mailto:SEUEMAIL@EMAIL.COM">Email</a>
 </p>
 
 ---
 
 ## 🧠 Sobre mim
 
-* 🇧🇷 Olinda, PE - Brasil
-* 🎯 Foco em **Backend Development + Data Analytics**
-* 🏗️ Experiência prática desenvolvendo **sistemas completos e funcionais**
-* 📊 Forte base em análise de dados aplicada a sistemas reais
-* ⚙️ Construção de APIs e estruturas backend modernas
+Sou um desenvolvedor com foco em **Backend Development** e **Data Analytics**, construindo sistemas reais com aplicação prática.
 
-> Desenvolvo soluções completas com aplicação prática — não apenas teoria.
+- 🇧🇷 Olinda, PE - Brasil  
+- 🎯 Foco em **Backend Development + Data Analytics**
+- ⚙️ Experiência com construção de APIs, autenticação, controle de acesso e estrutura backend moderna
+- 📊 Forte base em análise de dados com ferramentas aplicadas ao contexto de negócio
+- 🏗️ Interesse em desenvolver soluções escaláveis, organizadas e orientadas a dados
+
+> Não estudo apenas teoria — desenvolvo soluções completas com foco em uso real.
 
 ---
 
 ## ⚡ Stack Principal
 
 ### 📊 Data & Analytics
-
-![Power BI](https://img.shields.io/badge/PowerBI-Advanced-yellow?style=for-the-badge\&logo=powerbi)
-![Excel](https://img.shields.io/badge/Excel-Advanced-green?style=for-the-badge\&logo=microsoft-excel)
-![Google Sheets](https://img.shields.io/badge/Google%20Sheets-Advanced-brightgreen?style=for-the-badge\&logo=googlesheets)
-
----
+![Power BI](https://img.shields.io/badge/PowerBI-Advanced-yellow?style=for-the-badge&logo=powerbi)
+![Excel](https://img.shields.io/badge/Excel-Advanced-green?style=for-the-badge&logo=microsoft-excel)
+![Google Sheets](https://img.shields.io/badge/Google%20Sheets-Advanced-brightgreen?style=for-the-badge&logo=googlesheets)
 
 ### 💻 Backend & Desenvolvimento
-
-![Node.js](https://img.shields.io/badge/Node.js-Backend-green?style=for-the-badge\&logo=node.js)
-![TypeScript](https://img.shields.io/badge/TypeScript-Strong-blue?style=for-the-badge\&logo=typescript)
-![NestJS](https://img.shields.io/badge/NestJS-API-red?style=for-the-badge\&logo=nestjs)
-![Prisma](https://img.shields.io/badge/Prisma-ORM-2D3748?style=for-the-badge\&logo=prisma)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue?style=for-the-badge\&logo=postgresql)
-
----
+![Node.js](https://img.shields.io/badge/Node.js-Backend-green?style=for-the-badge&logo=node.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-Strong-blue?style=for-the-badge&logo=typescript)
+![NestJS](https://img.shields.io/badge/NestJS-API-red?style=for-the-badge&logo=nestjs)
+![Prisma](https://img.shields.io/badge/Prisma-ORM-2D3748?style=for-the-badge&logo=prisma)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue?style=for-the-badge&logo=postgresql)
 
 ### 🧠 Aplicação atual
+![Python](https://img.shields.io/badge/Python-Applied-blue?style=for-the-badge&logo=python)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Studying-orange?style=for-the-badge)
 
-* Python aplicado a **automação e análise de dados**
-* Estudo de Machine Learning com foco prático
+- Python aplicado a automação e análise de dados
+- Estudo de Machine Learning com foco prático
 
 ---
 
@@ -55,60 +53,58 @@
 
 ### 🔹 ONG CAMM4 — Sistema de Gestão Completo
 
-📌 Sistema backend completo para gestão de ONG, com foco em controle administrativo, usuários e relatórios
+📌 Sistema backend completo para gestão de ONG, com foco em controle administrativo, usuários e relatórios.
 
-🧠 Tecnologias:
+**Tecnologias**
+- NestJS
+- Prisma
+- PostgreSQL
+- JWT
+- Refresh Token
 
-* NestJS + Prisma + PostgreSQL (Neon)
+**Principais funcionalidades**
+- Autenticação com JWT + Refresh Token
+- Controle de acesso por nível com RBAC
+- Auditoria com logs de ações
+- Geração de relatórios em PDF
 
-⚙️ Funcionalidades:
+**Arquitetura**
+- Estrutura em camadas
+- Separação clara de responsabilidades
+- Organização modular e escalável
+- Aplicação de boas práticas de backend
 
-* Autenticação com JWT + Refresh Token
-* Controle de acesso por nível (RBAC)
-* Auditoria com logs de ações
-* Geração de relatórios em PDF
+**Impacto**
+- Centralização de dados administrativos
+- Estrutura preparada para múltiplos usuários
+- Base sólida para evolução e crescimento do sistema
 
-🧠 Arquitetura:
-
-* Estrutura em camadas (Controller, Service, Repository)
-* Aplicação de princípios SOLID
-* Organização modular e escalável
-
-📊 Impacto:
-
-* Centralização de dados administrativos
-* Estrutura pronta para múltiplos usuários
-* Base sólida para expansão do sistema
-
-🔗 https://github.com/RickelmeDSC/ONGCAMM4
+🔗 Repositório:  
+[ONGCAMM4](https://github.com/RickelmeDSC/ONGCAMM4)
 
 ---
 
 ### 🔹 TaskFlow — Gerenciador de Tarefas
 
-📌 Aplicação full-stack com foco em organização e usabilidade
+📌 Aplicação full-stack com foco em organização, usabilidade e estrutura funcional.
 
-🧠 Tecnologias:
+**Tecnologias**
+- Flask
+- MySQL
+- HTML / CSS / JavaScript
 
-* Backend: Flask + MySQL
-* Frontend: Interface moderna (Glassmorphism UI)
+**Principais funcionalidades**
+- CRUD completo de tarefas
+- Integração com API
+- Interface moderna com proposta visual clean
 
-⚙️ Funcionalidades:
+**Destaques**
+- Estrutura funcional e objetiva
+- Aplicação prática de backend com integração
+- Projeto voltado para produtividade e organização
 
-* CRUD completo de tarefas
-* Integração com API
-* Interface limpa e funcional
-
-🔗 https://github.com/RickelmeDSC/TaskFlow
-
----
-
-## 📊 GitHub Analytics
-
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=RickelmeDSC&theme=dark&hide_border=false" />
-</p>
+🔗 Repositório:  
+[TaskFlow](https://github.com/RickelmeDSC/TaskFlow)
 
 ---
 
@@ -117,24 +113,8 @@
 ```text
 Backend Developer & Data Analyst
 
-Desenvolvendo sistemas orientados a dados com foco em performance,
-estrutura bem definida e aplicação no mundo real
-```
-
----
-
-## 🤝 Oportunidades
-
-Busco oportunidade como:
-
-* Backend Developer Júnior
-* Data Analyst Júnior
-
-Tenho foco em construir sistemas reais, com estrutura sólida e orientados a dados.
-
-📩 Contato:
-
-* LinkedIn: https://www.linkedin.com/in/rickelme-david-75630b203/
-* Email: rickelmepe@gmail.com
-
----
+Desenvolvendo sistemas orientados a dados com foco em:
+- performance
+- estrutura bem definida
+- escalabilidade
+- aplicação no mundo real
