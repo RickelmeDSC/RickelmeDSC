@@ -6,8 +6,8 @@
 
 <p align="center">
   <a href="https://github.com/RickelmeDSC">GitHub</a> •
-  <a href="https://www.linkedin.com/in/SEU-LINKEDIN">LinkedIn</a> •
-  <a href="mailto:SEUEMAIL@EMAIL.COM">Email</a>
+  <a href="https://www.linkedin.com/in/rickelme-david-75630b203/>LinkedIn</a> •
+  <a href="rickelmepe@gmail.com">Email</a>
 </p>
 
 ---
