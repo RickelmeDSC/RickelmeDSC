@@ -1,7 +1,7 @@
 <h1 align="center">Rickelme David | Backend Developer & Data Analyst</h1>
 
 <p align="center">
-  Desenvolvendo sistemas em produção com foco em performance, segurança e estrutura escalável
+  Desenvolvedor focado em construção de sistemas reais, com ênfase em arquitetura backend, segurança e aplicação de dados
 </p>
 
 <p align="center">
@@ -14,34 +14,32 @@
 
 ## 🧠 Sobre mim
 
-Sou desenvolvedor com foco em **Backend Development** e **Data Analytics**, com experiência na construção de sistemas completos utilizados em ambiente real.
+Sou desenvolvedor com foco em **Backend Development** e **Data Analytics**, com experiência na construção de sistemas completos em ambiente de produção.
 
-* 🇧🇷 Olinda, PE - Brasil
-* 🎯 Foco em **Backend Development + Data Analytics**
-* ⚙️ Desenvolvimento de APIs seguras, autenticação e controle de acesso
-* 📊 Aplicação de dados em contexto de negócio
-* 🏗️ Experiência com sistemas estruturados e em produção
+- 🇧🇷 Olinda, PE - Brasil  
+- 🎯 Foco em **Node.js, APIs e sistemas escaláveis**  
+- 🔐 Interesse forte em **segurança, autenticação e controle de acesso**  
+- 📊 Aplicação prática de dados em contexto de negócio  
+- 🏗️ Experiência com sistemas estruturados e utilizados no mundo real  
 
-> Desenvolvo soluções completas com aplicação real — não apenas teoria.
+> Desenvolvo soluções com aplicação prática — não apenas projetos teóricos.
 
 ---
 
-## ⚡ Stack Principal
+## ⚙️ Stack Principal
 
 ### 💻 Backend
-
-* Node.js
-* TypeScript
-* NestJS
-* Prisma
-* PostgreSQL
+- Node.js
+- TypeScript
+- NestJS
+- Prisma ORM
+- PostgreSQL
 
 ### 📊 Data & Analytics
-
-* Power BI
-* Excel
-* Google Sheets
-* Python
+- Python
+- Power BI
+- Excel
+- Google Sheets
 
 ---
 
@@ -49,38 +47,85 @@ Sou desenvolvedor com foco em **Backend Development** e **Data Analytics**, com 
 
 ### 🔹 ONG CAMM4 — Sistema em Produção
 
-Sistema completo de gestão para ONG, desenvolvido para substituir processos manuais e centralizar dados administrativos.
+Sistema completo de gestão desenvolvido para digitalizar processos administrativos de uma ONG, substituindo operações manuais por uma plataforma estruturada e auditável.
 
-**📊 Impacto real**
+🔗 **Repositório:**  
+https://github.com/RickelmeDSC/ONGCAMM4  
 
-* Utilizado por **5 usuários ativos** (Diretor, Gestor e Voluntários)
-* Sistema em uso real em ambiente de produção
-* Digitalização de processos internos
-* Centralização e rastreabilidade de dados
+🔗 **Sistema online:**  
+https://ongcamm4.vercel.app  
 
-**⚙️ Tecnologias**
+---
 
-* NestJS + Prisma + PostgreSQL (Neon)
-* JWT + Refresh Token (com rotação)
+## 📊 Impacto
 
-**🔐 Segurança**
+- Sistema em uso real em ambiente de produção  
+- Substituição de processos manuais por fluxo digital  
+- Centralização e rastreabilidade de dados administrativos  
+- Utilizado por diferentes níveis de usuários (Diretor, Gestor e Voluntários)  
 
-* Autenticação com JWT + Refresh Token
-* Controle de acesso por nível (RBAC)
-* Rate limiting e proteção contra brute-force
-* Auditoria completa de ações
+---
 
-**🧠 Arquitetura**
+## 🧠 Arquitetura do Sistema
 
-* Estrutura em camadas (Controller, Service, ORM)
-* Separação clara de responsabilidades
-* Sistema modular e escalável
+- Backend estruturado em camadas (**Controller → Service → ORM**)  
+- Separação clara de responsabilidades  
+- Sistema modular e escalável  
+- Interceptação de requisições para auditoria automática  
+- Integração completa com banco PostgreSQL (Neon serverless)  
 
-🔗 Repositório:
-https://github.com/RickelmeDSC/ONGCAMM4
+---
 
-🔗 Sistema online:
-https://ongcamm4.vercel.app
+## 🔐 Segurança
+
+- Autenticação com **JWT (access token) + Refresh Token**
+- Rotação de refresh token (session security)
+- Proteção contra replay de sessão
+- Controle de acesso por nível (**RBAC**)  
+- Rate limiting (login, refresh e global)  
+- CAPTCHA (Cloudflare Turnstile)  
+- Auditoria completa de ações do sistema  
+
+---
+
+## 🔄 Fluxo de Autenticação
+
+- Login gera access + refresh token  
+- Refresh automático em caso de expiração  
+- Rotação de token a cada renovação  
+- Logout invalida sessão no backend  
+- Controle completo de sessão no frontend  
+
+---
+
+## 🧩 Decisões Técnicas
+
+- Uso de refresh token com rotação para aumentar segurança de sessão  
+- Soft delete para manter histórico e rastreabilidade  
+- Logging centralizado para auditoria e controle  
+- Arquitetura modular visando escalabilidade e manutenção  
+- Backend desacoplado do frontend (API-first)  
+
+---
+
+## 📈 Funcionalidades
+
+- Gestão de usuários com níveis de acesso  
+- Cadastro e controle de crianças  
+- Registro de frequência com histórico  
+- Geração de relatórios em PDF  
+- Dashboard com métricas e visualizações  
+- Registro de atividades e doações  
+- Auditoria completa de ações do sistema  
+
+---
+
+## 🌐 Deploy & Infraestrutura
+
+- Backend: Render (Docker)  
+- Frontend: Vercel  
+- Banco de dados: PostgreSQL (Neon)  
+- API documentada com Swagger  
 
 ---
 
@@ -88,14 +133,14 @@ https://ongcamm4.vercel.app
 
 ### 🔹 TaskFlow — Gerenciador de Tarefas
 
-Aplicação full-stack focada em organização e produtividade.
+Aplicação full-stack focada em organização pessoal.
 
-* Backend com Flask + MySQL
-* CRUD completo e integração com API
-* Interface simples e funcional
+- Backend com Flask + MySQL  
+- CRUD completo com API  
+- Interface simples e funcional  
 
-🔗 Repositório:
-https://github.com/RickelmeDSC/TaskFlow
+🔗 Repositório:  
+https://github.com/RickelmeDSC/TaskFlow  
 
 ---
 
@@ -103,20 +148,18 @@ https://github.com/RickelmeDSC/TaskFlow
 
 Backend Developer & Data Analyst
 
-* Desenvolvimento de sistemas em produção
-* Foco em segurança e estrutura backend
-* Aplicação prática de dados em sistemas reais
-* Construção de soluções escaláveis
+- Desenvolvimento de sistemas em produção  
+- Foco em arquitetura backend e segurança  
+- Aplicação prática de dados em sistemas reais  
+- Construção de soluções escaláveis  
 
 ---
 
-## 🤝 Objetivo
+## 🎯 Objetivo
 
 Busco oportunidade como:
 
-* Backend Developer Júnior
-* Data Analyst Júnior
+- Backend Developer Júnior  
+- Data Analyst Júnior  
 
 Com interesse em atuar em projetos reais, contribuir com soluções estruturadas e evoluir tecnicamente em ambiente profissional.
-
----
