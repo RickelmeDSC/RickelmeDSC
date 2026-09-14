@@ -1,7 +1,7 @@
 <h1 align="center">Rickelme David</h1>
 
 <p align="center">
-  <strong>Data Analyst & Backend Developer</strong><br>
+  <strong>Analista de Dados & Desenvolvedor</strong><br>
   Dados que sustentam decisões — e sistemas que produzem dados confiáveis
 </p>
 
@@ -15,7 +15,7 @@
 
 ## Sobre
 
-Analista de Dados na Health & Safety Tech, com base em desenvolvimento backend. Trabalho nas duas pontas: extraio, limpo e analiso dados operacionais — e construo os sistemas que geram esses dados.
+Analista de Dados na Health & Safety Tech, atuando em análise, desenvolvimento e qualidade de sistemas corporativos em produção. Meu trabalho é orientado a medição — inclusive quando a medição me contraria, o que já aconteceu algumas vezes e está documentado abaixo.
 
 Cursando Análise e Desenvolvimento de Sistemas na UNIBRA (conclusão em jun/2027).
 
@@ -23,30 +23,54 @@ Cursando Análise e Desenvolvimento de Sistemas na UNIBRA (conclusão em jun/202
 
 ## Trabalho profissional
 
-### ChamadosHS — Sistema de chamados em produção
-*Sistema interno, sem repositório público*
+*Sistemas internos, sem repositório público.*
 
-Assumi a manutenção de um help desk em operação e entreguei, ao longo de 17 dias de trabalho, **280 alterações em 44 versões publicadas**.
+### HelpHS — sistema principal
+`Python` `FastAPI` `React` `TypeScript` `PostgreSQL` `pgvector`
 
-- **Testes automatizados: de 46 para 649**, cobrindo API e front-end
-- Fechamento de rotas da API que respondiam sem autenticação
-- Autoria das ações movida para o servidor — a trilha de auditoria deixou de ser falsificável pelo cliente
-- Diagnóstico de adesão de 8,3% numa funcionalidade de avaliação (12 de 144 chamados em nove meses), rastreado ao posicionamento na interface, com realocação e remedição agendada
-- Recuperação de 4 chamados que sumiam da interface sem sair do estado interno — continuavam contando como pendência no painel
-- Validação automática de contraste e daltonismo que reprova a publicação, e suporte a leitor de tela
+Atuação em análise, engenharia e segurança entre agosto e setembro de 2026.
 
-**Stack:** React · TypeScript · Node.js · PostgreSQL
+**Quando a métrica mente**
+- Descobri que o indicador de SLA de primeira resposta media o tempo até alguém **clicar**, não até alguém **responder** — respostas por chat não eram contabilizadas, enquanto atribuir ou cancelar um chamado eram. Um erro de ordem na gravação fazia com que respostas atrasadas quase nunca fossem registradas como violação
+- Medi o que estava **de fato implantado** — migration do banco, rotas no ar, arquivos do bundle — em vez de deduzir pela árvore de commits. A medição mudou a ordem do que precisava ser feito
+
+**Segurança**
+- Fechei um banco de dados de produção que respondia na internet pública, descoberto ao sondar portas vizinhas ao IP do servidor
+- Removi a criação automática, a cada reinício do contêiner, de um administrador com senha versionada no repositório
+- Corrigi enumeração por tempo no login (1 ms contra 250 ms), recusas que denunciavam a existência de registros alheios, e um cabeçalho HTTP capaz de ocupar o processo por **151 segundos** — reduzido a 0,01 s
+- Implantei segundo fator (TOTP) para contas administrativas, rate limiting e correlação de logs
+
+**IA e busca vetorial**
+- Construí a busca vetorial (pgvector) de um assistente interno de atendimento, com o corte de relevância derivado de **40 perguntas rotuladas à mão** — os trechos entregues ao modelo caíram de 160 para 25
+- A medição derrubou meu próprio desenho: defendi processamento em lote por economia de rede; medido, o custo real era memória (3,7 GB de pico contra 5,1 GB disponíveis)
+
+**Qualidade**
+- Testes de backend de **399 para 1.213** (cobertura 89,76%); front-end de **192 para 1.443**
+- Encontrei defeitos com data marcada: a numeração de protocolo travaria no 10.000º chamado do ano, e nenhum e-mail seria enviado no dia em que o SMTP fosse ligado
 
 ---
 
-## Projetos
+### ChamadosHS — sistema de chamados
+`React` `TypeScript` `Node.js` `PostgreSQL`
+
+Assumi a manutenção e entreguei **280 alterações em 44 versões** ao longo de 17 dias de trabalho.
+
+- Testes automatizados de **46 para 649**
+- Autoria das ações movida para o servidor — a trilha de auditoria deixou de ser falsificável pelo cliente
+- Diagnóstico de adesão de 8,3% numa funcionalidade de avaliação (12 de 144 chamados em nove meses), rastreado ao posicionamento na interface
+- Recuperação de 4 chamados que sumiam da interface sem sair do estado interno, continuando a contar como pendência no painel
+- Validação automática de contraste e daltonismo que reprova a publicação, e suporte a leitor de tela
+
+---
+
+## Projetos públicos
 
 ### 🔧 claude-code-hub
 *Painel de terminal para navegar repositórios, histórico de sessões e memória de projeto*
 
-Ferramenta em PowerShell, sem dependências além de `git`, `gh` e `claude`. **164 testes automatizados** que passam num clone recém-baixado, contra um ambiente sintético — nenhum teste lê dados reais ou acessa a rede.
+PowerShell, sem dependências além de `git`, `gh` e `claude`. **164 testes automatizados** que passam num clone recém-baixado, contra um ambiente sintético — nenhum teste lê dados reais ou acessa a rede.
 
-Otimização guiada por medição: o tempo de abertura caiu de 6–10 segundos para ~440 ms. Nenhuma das três causas estava onde o código parecia lento.
+Otimização guiada por medição: a abertura caiu de 6–10 segundos para ~440 ms, e três decisões de desenho foram revertidas pelo que a medição mostrou.
 
 `PowerShell 5.1` · `MIT` · ~3.650 linhas
 
@@ -57,9 +81,7 @@ Otimização guiada por medição: o tempo de abertura caiu de 6–10 segundos p
 ### 📊 Análise da Distribuição de Renda — PNAD 2015
 *Análise estatística dos microdados oficiais do IBGE*
 
-Análise descritiva completa da desigualdade de renda no Brasil. Após uma economista PhD apontar a ausência de pesos amostrais na primeira versão, refiz o estudo inteiro em **R com o pacote `survey`**, sobre os 116 mil registros oficiais — o que revelou padrões que a amostra bruta escondia.
-
-Inclui documentação metodológica separada, com fontes, decisões de desenho e limitações conhecidas.
+Após uma economista PhD apontar a ausência de pesos amostrais na primeira versão, refiz o estudo inteiro em **R com o pacote `survey`**, sobre os 116 mil registros oficiais. Identifiquei e documentei uma divergência de 40 mil registros entre uma base curada de terceiros e a fonte oficial.
 
 `Python` · `Pandas` · `R` · `SQL`
 
@@ -70,11 +92,7 @@ Inclui documentação metodológica separada, com fontes, decisões de desenho e
 ### 🏛️ ONG CAMM4 — Sistema de gestão em produção
 *Plataforma completa para digitalizar a gestão de uma ONG*
 
-Cadastro de crianças e responsáveis, controle de frequência, gestão de doações e dashboard administrativo. Construído do zero, hoje em uso real.
-
-- Autenticação JWT com refresh token rotativo e RBAC (Diretor, Gestor, Voluntário)
-- Rate limiting, auditoria de ações e documentação Swagger/OpenAPI
-- Arquitetura em camadas (Controller → Service → ORM), API-first
+Construída do zero: API REST modular, autenticação JWT com refresh token rotativo, RBAC, rate limiting, auditoria e documentação Swagger. Arquitetura em camadas, API-first.
 
 `Node.js` · `NestJS` · `TypeScript` · `Prisma` · `PostgreSQL`
 
@@ -83,9 +101,7 @@ Cadastro de crianças e responsáveis, controle de frequência, gestão de doaç
 ---
 
 ### 🚢 Análise Titanic — SQL e estatística em Python puro
-*10 queries analíticas e 5 métricas estatísticas implementadas na mão*
-
-Modelagem e carga em SQLite, com as métricas implementadas manualmente — sem `.mean()` ou `.median()` — e validadas contra as bibliotecas.
+10 queries analíticas e 5 métricas estatísticas implementadas na mão, validadas contra as bibliotecas.
 
 `Python` · `SQLite` · `SQL`
 
@@ -108,23 +124,25 @@ API CRUD com arquitetura organizada por camadas.
 `Python` `Pandas` `NumPy` `SciPy` `R` `SQL` `Power BI` `Excel`
 
 **Backend**
-`Node.js` `NestJS` `TypeScript` `Flask` `PostgreSQL` `MySQL` `Prisma`
+`FastAPI` `Node.js` `NestJS` `TypeScript` `PostgreSQL` `MySQL` `SQLAlchemy` `Prisma`
 
 **Front-end**
 `React` `TypeScript` `Tailwind CSS`
 
-**Ferramentas**
-`Git` `Docker` `Linux` `Jupyter` `Swagger`
+**Qualidade e infra**
+`Testes automatizados` `Teste por mutação` `Git` `Docker` `Linux` `CI/CD`
 
 ---
 
 ## Como eu trabalho
 
-**Medir antes de concluir.** No claude-code-hub, três decisões de desenho foram revertidas pela medição — em uma delas, 243 arquivos de sessão eram na verdade 47 conversas reais e 196 transcrições aninhadas.
+**Medir antes de concluir — e aceitar quando a medição me contraria.** Defendi processamento em lote num serviço de IA por economizar viagens de rede. Medido, o custo real era memória: 3,7 GB de pico num servidor com 5,1 GB livres. O lote foi reduzido.
 
-**Teste e documentação fazem parte da entrega.** Cada decisão não óbvia carrega, no código, a razão e o defeito que a motivou.
+**Teste por mutação, porque o verde esconde coisa.** Já escrevi um teste chamado "o mesmo desafio não serve duas vezes" que passava — e provava outra coisa. Mutar o código mostrou que ele nunca testou o que o nome dizia.
 
-**Declarar a limitação em vez de contorná-la.** Na análise da PNAD, encontrei 40 mil registros de divergência entre uma base curada e a fonte oficial. Não consegui explicar o gap — então documentei a inconsistência.
+**Desconfiar da régua, não só do resultado.** `tsc --noEmit` reportava "limpo" e olhava zero arquivos. A cobertura da suíte inteira estava abaixo do real porque o coverage perdia o rastro a cada await. A pergunta que encontra esse tipo de coisa: *sobre o que exatamente esta régua opera?*
+
+**Declarar a limitação em vez de contorná-la.** Na análise da PNAD, encontrei 40 mil registros de divergência entre uma base curada e a fonte oficial. Não consegui explicar o gap — então documentei a inconsistência em vez de reconciliá-la em silêncio.
 
 ---
 
