@@ -1,189 +1,189 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:07111F,38:0F766E,72:0EA5E9,100:2563EB&text=Rickelme%20David&fontColor=FFFFFF&fontSize=52&fontAlignY=36&desc=Dados%20%C2%B7%20Backend%20%C2%B7%20IA%20Aplicada%20%C2%B7%20Qualidade%20de%20Software&descAlignY=58&descSize=18&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:07111F,38:0F766E,72:0EA5E9,100:2563EB&text=Rickelme%20David&fontColor=FFFFFF&fontSize=52&fontAlignY=36&desc=Data%20%C2%B7%20Backend%20%C2%B7%20Applied%20AI%20%C2%B7%20Software%20Quality&descAlignY=58&descSize=18&animation=fadeIn"/>
 
 <div align="center">
 
 <a href="https://github.com/RickelmeDSC">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3200&pause=900&color=22D3EE&center=true&vCenter=true&width=760&lines=Python+%C2%B7+SQL+%C2%B7+React+%C2%B7+FastAPI;An%C3%A1lise+de+dados%2C+estat%C3%ADstica+e+ETL;Backend%2C+APIs+e+sistemas+em+produ%C3%A7%C3%A3o;RAG%2C+embeddings+e+IA+aplicada;Medir+antes+de+concluir.+Testar+antes+de+confiar."
-    alt="Apresentação profissional de Rickelme David"
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3200&pause=900&color=22D3EE&center=true&vCenter=true&width=760&lines=Python+%C2%B7+SQL+%C2%B7+React+%C2%B7+FastAPI;Data+analysis%2C+statistics+and+ETL;Backend%2C+APIs+and+production+systems;RAG%2C+embeddings+and+applied+AI;Measure+before+concluding.+Test+before+trusting."
+    alt="Rickelme David professional introduction"
   />
 </a>
 
-Analista de Dados · Engenharia de Software · IA Aplicada
-Health & Safety Tech · Pernambuco, Brasil
-<sub>Transformo dados em evidência, hipóteses em decisões e problemas de software em sistemas mais confiáveis.</sub>
+Data Analyst · Software Engineering · Applied AI
+Health & Safety Tech · Pernambuco, Brazil
+<sub>I turn data into evidence, hypotheses into decisions, and software problems into more reliable systems.</sub>
 
 
 
 
 </div>
 
-👋 Sobre mim
-Sou Analista de Dados com atuação prática também em backend, qualidade de software, segurança e IA aplicada.
-Meu diferencial não está apenas nas tecnologias que uso, mas na forma como trabalho: medir antes de concluir, investigar falhas silenciosas, questionar métricas e documentar limitações em vez de mascará-las.
-Hoje, minha atuação conecta quatro áreas:
-- Dados: Python, SQL, R, Power BI, Power Query, pandas e estatística aplicada.
-- Engenharia: FastAPI, NestJS, Flask, React, PostgreSQL e APIs REST.
-- IA aplicada: RAG, embeddings, pgvector, busca vetorial e ONNX Runtime.
-- Qualidade: testes automatizados, teste por mutação, revisão de código e segurança.
-📌 Em números
+👋 About Me
+I am a Data Analyst with hands-on experience in backend development, software quality, security, and applied AI.
+My main differentiator is not only the technology stack I use, but how I work: measure before concluding, investigate silent failures, question metrics, and document limitations instead of hiding them.
+My work connects four main areas:
+- Data: Python, SQL, R, Power BI, Power Query, pandas, and applied statistics.
+- Engineering: FastAPI, NestJS, Flask, React, PostgreSQL, and REST APIs.
+- Applied AI: RAG, embeddings, pgvector, vector search, and ONNX Runtime.
+- Quality: automated testing, mutation testing, code review, and application security.
+📌 By the Numbers
 <table align="center">
   <tr>
     <td align="center" width="220">
-      <h2>399 → 1.314</h2>
-      <sub>testes de backend<br><b>HelpHS</b></sub>
+      <h2>399 → 1,314</h2>
+      <sub>backend tests<br><b>HelpHS</b></sub>
     </td>
     <td align="center" width="220">
       <h2>46 → 649</h2>
-      <sub>testes automatizados<br><b>ChamadosHS</b></sub>
+      <sub>automated tests<br><b>ChamadosHS</b></sub>
     </td>
     <td align="center" width="220">
       <h2>6–10 s → ~440 ms</h2>
-      <sub>tempo de abertura<br><b>claude-code-hub</b></sub>
+      <sub>startup time<br><b>claude-code-hub</b></sub>
     </td>
     <td align="center" width="220">
-      <h2>151 s → 0,01 s</h2>
-      <sub>mitigação de processamento abusivo<br><b>HelpHS</b></sub>
+      <h2>151 s → 0.01 s</h2>
+      <sub>abusive processing mitigation<br><b>HelpHS</b></sub>
     </td>
   </tr>
 </table>
 
-🧭 Como eu gero valor
+🧭 How I Create Value
 <table>
   <tr>
     <td width="50%" valign="top">
 
-📊 Dados & Analytics
-Investigo dados com foco em qualidade, contexto e decisão.
-- análise exploratória e estatística aplicada
-- SQL para investigação e análise
-- ETL e transformação com Python
-- Power BI e Power Query
-- reconciliação entre fontes
-- desenho amostral complexo em R
+📊 Data & Analytics
+I investigate data with a focus on quality, context, and decision-making.
+- exploratory analysis and applied statistics
+- SQL for investigation and analytics
+- ETL and transformation with Python
+- Power BI and Power Query
+- reconciliation between data sources
+- complex survey design in R
     </td>
     <td width="50%" valign="top">
-⚙️ Backend & Sistemas
-Construo e evoluo sistemas com foco em regra de negócio, confiabilidade e manutenção.
-- APIs REST com FastAPI, NestJS e Flask
-- PostgreSQL, SQLAlchemy e Prisma
-- autenticação JWT e controle de acesso
-- integrações e regras de negócio
-- arquitetura em camadas
-- sistemas internos em produção
+⚙️ Backend & Systems
+I build and evolve systems with a focus on business rules, reliability, and maintainability.
+- REST APIs with FastAPI, NestJS, and Flask
+- PostgreSQL, SQLAlchemy, and Prisma
+- JWT authentication and access control
+- integrations and business rules
+- layered architecture
+- internal production systems
     </td>
   </tr>
   
   <tr>
     <td width="50%" valign="top">
-🤖 IA Aplicada
-Trabalho com IA como componente de engenharia, não como caixa-preta.
+🤖 Applied AI
+I treat AI as an engineering component, not a black box.
 - Retrieval-Augmented Generation (RAG)
-- embeddings e busca vetorial
-- pgvector e distância cosseno
-- calibração de limiar de relevância
+- embeddings and vector search
+- pgvector and cosine distance
+- relevance threshold calibration
 - ONNX Runtime
-- avaliação de comportamento e limites
+- system behavior and limitation evaluation
     </td>
     <td width="50%" valign="top">
-🛡️ Qualidade & Segurança
-Procuro os erros que não aparecem como erro.
-- testes automatizados
-- teste por mutação
+🛡️ Quality & Security
+I look for errors that do not appear as errors.
+- automated testing
+- mutation testing
 - code review
-- auditoria de segurança
-- investigação de falhas silenciosas
-- decisões técnicas baseadas em evidência
+- security auditing
+- investigation of silent failures
+- evidence-based technical decisions
     </td>
   </tr>
 </table>
 
-🚀 Projetos em destaque
+🚀 Featured Projects
 🧩 HelpHS
-Plataforma de atendimento, SLA, conhecimento e IA
-Sistema principal da Health & Safety Tech, com FastAPI, React e PostgreSQL.
-Minha atuação envolve principalmente qualidade, segurança, métricas e IA aplicada.
-Destaques:
-- evolução da suíte de backend de 399 para 1.314 testes
-- diagnóstico de um SLA que media o evento errado
-- auditoria de segurança em rotas e infraestrutura
-- identificação de enumeração por tempo no login
-- mitigação de processamento abusivo de cabeçalho HTTP de 151 s para 0,01 s
-- desenvolvimento e avaliação da busca semântica da assistente Helô
-- calibração de relevância com 40 perguntas rotuladas manualmente
+Support, SLA, knowledge, and AI platform
+Main system at Health & Safety Tech, built with FastAPI, React, and PostgreSQL.
+My work mainly focuses on quality, security, metrics, and applied AI.
+Highlights:
+- backend test suite evolved from 399 to 1,314 tests
+- diagnosed an SLA metric that was measuring the wrong event
+- performed security auditing across routes and infrastructure
+- identified timing-based user enumeration in login
+- mitigated abusive HTTP header processing from 151 s to 0.01 s
+- developed and evaluated semantic search for the Helô assistant
+- calibrated relevance using 40 manually labeled questions
 Stack: Python · FastAPI · React · PostgreSQL · SQLAlchemy · pgvector · ONNX Runtime · Docker
 
 ⚡ claude-code-hub
-Painel de terminal para produtividade com Claude Code
-Ferramenta em PowerShell para organizar repositórios, sessões e contexto de projetos.
-Destaques:
-- cerca de 3.650 linhas
-- 164 testes automatizados
-- ambiente de testes sintético, sem dados reais
-- abertura otimizada de 6–10 s para ~440 ms
-- três decisões de arquitetura revertidas após medição real
-Stack: PowerShell · Testes automatizados · Git · Claude Code
+Terminal dashboard for Claude Code productivity
+A PowerShell tool for organizing repositories, sessions, and project context.
+Highlights:
+- around 3,650 lines
+- 164 automated tests
+- synthetic test environment with no real user data
+- startup optimized from 6–10 s to ~440 ms
+- three architecture decisions reversed after real measurement
+Stack: PowerShell · Automated Testing · Git · Claude Code
 
-📈 Análise da Distribuição de Renda — PNAD 2015
-Estatística aplicada com Python, R e microdados oficiais do IBGE
-Projeto que começou como análise descritiva e evoluiu para um estudo com desenho amostral complexo após revisão metodológica pública.
-Destaques:
-- análise exploratória inicial em Python
-- reimplementação em R com o pacote survey
-- pesos amostrais, estratificação e conglomeração
-- uso dos microdados oficiais do IBGE
-- divergência de 39.627 registros documentada entre bases
-- metodologia revisada após crítica técnica pública
+📈 Income Distribution Analysis — PNAD 2015
+Applied statistics with Python, R, and official IBGE microdata
+A project that started as descriptive analysis and evolved into a study using complex survey design after public methodological review.
+Highlights:
+- initial exploratory analysis in Python
+- reimplementation in R using the survey package
+- sample weights, stratification, and clustering
+- use of official IBGE microdata
+- a 39,627-record discrepancy documented between sources
+- methodology revised after public technical criticism
 Stack: Python · R · survey · dplyr · ggplot2 · SQL
 
 🏠 ONG CAMM4
-Sistema full stack de gestão para uma ONG
-Plataforma criada para digitalizar processos administrativos da ONG CAMM4.
-Recursos principais:
-- cadastro de crianças e responsáveis
-- controle de frequência
-- gestão de doações
-- dashboard administrativo
-- JWT com refresh token rotativo
-- RBAC para Diretor, Gestor e Voluntário
+Full-stack management system for a nonprofit organization
+A platform built to digitize administrative processes for ONG CAMM4.
+Main features:
+- children and guardians registration
+- attendance tracking
+- donation management
+- administrative dashboard
+- JWT authentication with rotating refresh tokens
+- RBAC for Director, Manager, and Volunteer roles
 - rate limiting
-- auditoria automática
-- documentação Swagger/OpenAPI
+- automated auditing
+- Swagger/OpenAPI documentation
 Stack: NestJS · TypeScript · PostgreSQL · Prisma · JWT · React
 
-🚢 Titanic — SQL & Estatística
-Projeto analítico com 891 passageiros, modelagem em SQLite e estatística implementada manualmente em Python.
-Destaques:
-- 10 consultas SQL analíticas
-- GROUP BY, CASE, agregações e cruzamentos
-- 5 métricas estatísticas implementadas do zero
-- validação dos resultados contra bibliotecas
-- comparação prática entre média e mediana
-Stack: Python · SQL · SQLite · Estatística
+🚢 Titanic — SQL & Statistics
+Analytical project with 891 passengers, SQLite modeling, and statistical functions implemented manually in Python.
+Highlights:
+- 10 analytical SQL queries
+- GROUP BY, CASE, aggregations, and cross-analysis
+- 5 statistical metrics implemented from scratch
+- results validated against libraries
+- practical comparison between mean and median
+Stack: Python · SQL · SQLite · Statistics
 
-🧰 Stack principal
+🧰 Core Stack
 <div align="center">
 
-Linguagens
-<img src="https://skillicons.dev/icons?i=python,ts,js,r,powershell" alt="Python, TypeScript, JavaScript, R e PowerShell" />
+Languages
+<img src="https://skillicons.dev/icons?i=python,ts,js,r,powershell" alt="Python, TypeScript, JavaScript, R and PowerShell" />
 
 
 
 
 Backend & Frontend
-<img src="https://skillicons.dev/icons?i=fastapi,nestjs,nodejs,flask,react,tailwind" alt="FastAPI, NestJS, Node.js, Flask, React e Tailwind" />
+<img src="https://skillicons.dev/icons?i=fastapi,nestjs,nodejs,flask,react,tailwind" alt="FastAPI, NestJS, Node.js, Flask, React and Tailwind" />
 
 
 
 
-Bancos & Persistência
-<img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,prisma" alt="PostgreSQL, MySQL, SQLite e Prisma" />
+Databases & Persistence
+<img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,prisma" alt="PostgreSQL, MySQL, SQLite and Prisma" />
 
 
 
 
-DevOps & Ferramentas
-<img src="https://skillicons.dev/icons?i=docker,git,github,linux,vscode" alt="Docker, Git, GitHub, Linux e VS Code" />
+DevOps & Tools
+<img src="https://skillicons.dev/icons?i=docker,git,github,linux,vscode" alt="Docker, Git, GitHub, Linux and VS Code" />
 
 
 
@@ -198,44 +198,45 @@ DevOps & Ferramentas
 
 </div>
 
-💼 Experiência
+💼 Experience
 Health & Safety Tech
-Analista de Dados · 2026 — atual
-Atuação envolvendo análise de dados, desenvolvimento de sistemas internos, backend, qualidade de software, segurança da informação e IA aplicada.
+Data Analyst · 2026 — Present
+Working across data analysis, internal systems development, backend engineering, software quality, information security, and applied AI.
 Conorte
-Estagiário de TI · 2025 — 2026
-Atuação com Power BI, Excel, SQL, estruturação de dados operacionais e infraestrutura de TI.
-🎓 Formação
-Análise e Desenvolvimento de Sistemas — UNIBRA
-Conclusão prevista para 2027.
-🧠 Como eu trabalho
-Medir antes de concluir. Desconfiar da régua, não apenas do resultado. Documentar a limitação em vez de escondê-la.
+IT Intern · 2025 — 2026
+Worked with Power BI, Excel, SQL, operational data structuring, and IT infrastructure.
+🎓 Education
+Systems Analysis and Development — UNIBRA
+Expected graduation: 2027.
+🧠 How I Work
+Measure before concluding. Question the ruler, not only the result. Document limitations instead of hiding them.
 
-- decisões técnicas precisam de evidência
-- testes precisam provar o comportamento que dizem provar
-- métricas precisam medir exatamente o que prometem
-- uma limitação documentada vale mais que uma certeza inventada
-- código confiável depende de engenharia, observação e contexto
+- technical decisions should be backed by evidence
+- tests should prove the behavior they claim to prove
+- metrics should measure exactly what they promise
+- a documented limitation is more valuable than an invented certainty
+- reliable software depends on engineering, observation, and context
 📊 GitHub
 <div align="center">
 
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com?user=RickelmeDSC&theme=tokyonight&hide_border=true" alt="GitHub streak de RickelmeDSC" />
+<img height="165" src="https://github-readme-streak-stats.herokuapp.com?user=RickelmeDSC&theme=tokyonight&hide_border=true" alt="RickelmeDSC GitHub streak" />
 
 
 
 
-<img width="720" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=RickelmeDSC&theme=github_dark" alt="Resumo do perfil GitHub de RickelmeDSC" />
+<img width="720" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=RickelmeDSC&theme=github_dark" alt="RickelmeDSC GitHub profile summary" />
 
 </div>
 
 <div align="center">
 
-🤝 Vamos conversar?
-Gosto de projetos em que dados, engenharia e IA precisam funcionar juntos no mundo real.
+🤝 Let's Connect
+I enjoy projects where data, engineering, and AI need to work together in the real world.
 
 
 
-<sub>Dados · Engenharia · IA aplicada · Qualidade</sub>
+
+<sub>Data · Engineering · Applied AI · Quality</sub>
 </div>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=115&color=0:2563EB,45:0EA5E9,72:0F766E,100:07111F&section=footer"/>
