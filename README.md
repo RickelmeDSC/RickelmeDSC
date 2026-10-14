@@ -1,151 +1,147 @@
-<h1 align="center">Rickelme David</h1>
+# Rickelme David Silva Cavalcante
 
-<p align="center">
-  <strong>Analista de Dados & Desenvolvedor</strong><br>
-  Dados que sustentam decisões — e sistemas que produzem dados confiáveis
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://github.com/RickelmeDSC">GitHub</a> •
-  <a href="https://www.linkedin.com/in/rickelme-david-75630b203/">LinkedIn</a> •
-  <a href="mailto:rickelmepe@gmail.com">Email</a>
-</p>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:0B1220,50:0D9488,100:6366F1&text=Rickelme%20David&fontColor=ffffff&fontSize=50&fontAlignY=36&desc=Data%20Analytics%20%C2%B7%20Full%20Stack%20%C2%B7%20AI%20Engineering&descAlignY=58&descSize=18&animation=fadeIn"/>
 
----
+<a href="https://github.com/RickelmeDSC">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3200&pause=1000&color=0D9488&center=true&vCenter=true&width=720&lines=Python+%C2%B7+SQL+%C2%B7+React+%C2%B7+FastAPI;Building+reliable+full-stack+applications;Data+analytics%2C+statistics+and+ETL;Applied+AI+%C2%B7+RAG+%C2%B7+Software+Quality" alt="Typing animation" />
+</a>
 
-## Sobre
+**Data Analyst at Health & Safety Tech** · Pernambuco, Brazil
 
-Analista de Dados na Health & Safety Tech, atuando em análise, desenvolvimento e qualidade de sistemas corporativos em produção. Meu trabalho é orientado a medição — inclusive quando a medição me contraria, o que já aconteceu algumas vezes e está documentado abaixo.
+<sub>Turning data into insights and building reliable software, from backend APIs to applied AI.</sub>
 
-Cursando Análise e Desenvolvimento de Sistemas na UNIBRA (conclusão em jun/2027).
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rickelme-david-75630b203)
+[![GitHub](https://img.shields.io/badge/GitHub-0B1220?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RickelmeDSC)
+[![Email](https://img.shields.io/badge/Email-0D9488?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rickelmepe@gmail.com)
 
----
+</div>
 
-## Trabalho profissional
+## Engineering Highlights
 
-*Sistemas internos, sem repositório público.*
+| 1,314 | 649 | 164 |
+|:---:|:---:|:---:|
+| Backend tests in HelpHS | Tests in ChamadosHS | Tests in claude-code-hub |
+| 89.89% coverage at measurement | From 46 initial tests | Synthetic environment |
 
-### HelpHS — sistema principal
-`Python` `FastAPI` `React` `TypeScript` `PostgreSQL` `pgvector`
+## What I Do
 
-Atuação em análise, engenharia e segurança entre agosto e setembro de 2026.
+**Data Analytics & Engineering**
 
-**Quando a métrica mente**
-- Descobri que o indicador de SLA de primeira resposta media o tempo até alguém **clicar**, não até alguém **responder** — respostas por chat não eram contabilizadas, enquanto atribuir ou cancelar um chamado eram. Um erro de ordem na gravação fazia com que respostas atrasadas quase nunca fossem registradas como violação
-- Medi o que estava **de fato implantado** — migration do banco, rotas no ar, arquivos do bundle — em vez de deduzir pela árvore de commits. A medição mudou a ordem do que precisava ser feito
+- Data analysis with Python, SQL, pandas and R.
+- Statistical analysis, data quality and reproducible research.
+- ETL, Power BI, Power Query and operational reporting.
 
-**Segurança**
-- Fechei um banco de dados de produção que respondia na internet pública, descoberto ao sondar portas vizinhas ao IP do servidor
-- Removi a criação automática, a cada reinício do contêiner, de um administrador com senha versionada no repositório
-- Corrigi enumeração por tempo no login (1 ms contra 250 ms), recusas que denunciavam a existência de registros alheios, e um cabeçalho HTTP capaz de ocupar o processo por **151 segundos** — reduzido a 0,01 s
-- Implantei segundo fator (TOTP) para contas administrativas, rate limiting e correlação de logs
+**Backend & Full Stack**
 
-**IA e busca vetorial**
-- Construí a busca vetorial (pgvector) de um assistente interno de atendimento, com o corte de relevância derivado de **40 perguntas rotuladas à mão** — os trechos entregues ao modelo caíram de 160 para 25
-- A medição derrubou meu próprio desenho: defendi processamento em lote por economia de rede; medido, o custo real era memória (3,7 GB de pico contra 5,1 GB disponíveis)
+- REST APIs with FastAPI, NestJS and Flask.
+- Web applications using React, TypeScript and Tailwind CSS.
+- PostgreSQL, Prisma, SQLAlchemy, JWT and role-based access control.
 
-**Qualidade**
-- Testes de backend de **399 para 1.213** (cobertura 89,76%); front-end de **192 para 1.443**
-- Encontrei defeitos com data marcada: a numeração de protocolo travaria no 10.000º chamado do ano, e nenhum e-mail seria enviado no dia em que o SMTP fosse ligado
+**Applied AI**
 
----
+- Retrieval-Augmented Generation (RAG) with vector search.
+- Embeddings with bge-m3, pgvector and ONNX Runtime.
+- Relevance evaluation, threshold calibration and AI-assisted workflows.
 
-### ChamadosHS — sistema de chamados
-`React` `TypeScript` `Node.js` `PostgreSQL`
+**Security & Software Quality**
 
-Assumi a manutenção e entreguei **280 alterações em 44 versões** ao longo de 17 dias de trabalho.
+- Automated testing, mutation testing and code review.
+- Security auditing, authentication and authorization.
+- Docker, GitHub, technical documentation and production troubleshooting.
 
-- Testes automatizados de **46 para 649**
-- Autoria das ações movida para o servidor — a trilha de auditoria deixou de ser falsificável pelo cliente
-- Diagnóstico de adesão de 8,3% numa funcionalidade de avaliação (12 de 144 chamados em nove meses), rastreado ao posicionamento na interface
-- Recuperação de 4 chamados que sumiam da interface sem sair do estado interno, continuando a contar como pendência no painel
-- Validação automática de contraste e daltonismo que reprova a publicação, e suporte a leitor de tela
+## Featured Projects
 
----
+### [HelpHS](https://github.com/ErickSantos2002/HelpHS) · Support Management Platform
 
-## Projetos públicos
+Production support management platform built with **Python, FastAPI, React and PostgreSQL**.
 
-### 🔧 claude-code-hub
-*Painel de terminal para navegar repositórios, histórico de sessões e memória de projeto*
+My contributions include automated testing, security hardening, SLA accuracy, accessibility and AI-assisted knowledge retrieval.
 
-PowerShell, sem dependências além de `git`, `gh` e `claude`. **164 testes automatizados** que passam num clone recém-baixado, contra um ambiente sintético — nenhum teste lê dados reais ou acessa a rede.
+- Expanded backend test coverage from 399 to 1,314 tests in the documented period.
+- Investigated and corrected misleading SLA measurements.
+- Identified security weaknesses and implemented targeted mitigations.
+- Developed and evaluated RAG retrieval components.
 
-Otimização guiada por medição: a abertura caiu de 6–10 segundos para ~440 ms, e três decisões de desenho foram revertidas pelo que a medição mostrou.
+### [claude-code-hub](https://github.com/RickelmeDSC/claude-code-hub) · Developer Productivity
 
-`PowerShell 5.1` · `MIT` · ~3.650 linhas
+PowerShell-based terminal dashboard for managing Claude Code repositories, sessions and project context.
 
-🔗 https://github.com/RickelmeDSC/claude-code-hub
+- 164 automated tests using synthetic data.
+- Startup time optimized from 6–10 seconds to approximately 440 ms.
+- Performance decisions driven by measurement rather than assumptions.
 
----
+### [PNAD 2015 — Income Distribution Analysis](https://github.com/RickelmeDSC/analise-descritiva-pnad-2015)
 
-### 📊 Análise da Distribuição de Renda — PNAD 2015
-*Análise estatística dos microdados oficiais do IBGE*
+Statistical analysis of Brazilian income distribution using official IBGE microdata.
 
-Após uma economista PhD apontar a ausência de pesos amostrais na primeira versão, refiz o estudo inteiro em **R com o pacote `survey`**, sobre os 116 mil registros oficiais. Identifiquei e documentei uma divergência de 40 mil registros entre uma base curada de terceiros e a fonte oficial.
+- Python exploratory analysis and R survey-weighted estimation.
+- Complex sampling design with stratification and clustering.
+- Documented methodological limitations and source discrepancies.
 
-`Python` · `Pandas` · `R` · `SQL`
+### [ONG CAMM4](https://github.com/RickelmeDSC/ONGCAMM4) · Full Stack Management System
 
-🔗 https://github.com/RickelmeDSC/analise-descritiva-pnad-2015
+Full-stack platform for nonprofit operations, including attendance, donations and administrative management.
 
----
+**Stack:** NestJS, TypeScript, PostgreSQL, Prisma, JWT and React.
 
-### 🏛️ ONG CAMM4 — Sistema de gestão em produção
-*Plataforma completa para digitalizar a gestão de uma ONG*
+Features include role-based access control, API documentation, auditing and deployment infrastructure.
 
-Construída do zero: API REST modular, autenticação JWT com refresh token rotativo, RBAC, rate limiting, auditoria e documentação Swagger. Arquitetura em camadas, API-first.
+### [Titanic — SQL & Statistics](https://github.com/RickelmeDSC/analise-titanic-sql-estatistica)
 
-`Node.js` · `NestJS` · `TypeScript` · `Prisma` · `PostgreSQL`
+Analytical project combining SQL queries and statistical functions implemented manually in Python.
 
-🔗 [Sistema online](https://ongcamm4.vercel.app) · [Repositório](https://github.com/RickelmeDSC/ONGCAMM4)
+- 891 passenger records.
+- 10 analytical SQL queries.
+- 5 statistical metrics implemented from scratch and validated.
 
----
+## Tech Stack
 
-### 🚢 Análise Titanic — SQL e estatística em Python puro
-10 queries analíticas e 5 métricas estatísticas implementadas na mão, validadas contra as bibliotecas.
+| Area | Technologies |
+|---|---|
+| Languages | Python, SQL, TypeScript, JavaScript, R, PowerShell |
+| Backend | FastAPI, NestJS, Node.js, Flask |
+| Frontend | React, Tailwind CSS |
+| Databases | PostgreSQL, MySQL, SQLite, Prisma |
+| Data | pandas, NumPy, SciPy, Power BI, Power Query |
+| AI | RAG, pgvector, Embeddings, ONNX Runtime |
+| Engineering | Git, Docker, pytest, Vitest, GitHub |
 
-`Python` · `SQLite` · `SQL`
+<div align="center">
 
-🔗 https://github.com/RickelmeDSC/analise-titanic-sql-estatistica
+<img src="https://skillicons.dev/icons?i=python,ts,js,react,tailwind,fastapi,nestjs,nodejs,postgres,mysql,docker,git,github&perline=7" alt="Technology stack"/>
 
----
+</div>
 
-### ✅ TaskFlow — Gerenciador de tarefas
-API CRUD com arquitetura organizada por camadas.
+## Experience
 
-`Flask` · `MySQL`
+**Health & Safety Tech** · Data Analyst · 2026 – Present
 
-🔗 https://github.com/RickelmeDSC/TaskFlow
+Data analytics, backend development, software quality, security auditing and applied AI.
 
----
+**Conorte** · IT Intern · 2025 – 2026
 
-## Stack
+Operational data analysis, Power BI, SQL, Excel and IT infrastructure.
 
-**Dados**
-`Python` `Pandas` `NumPy` `SciPy` `R` `SQL` `Power BI` `Excel`
+## Education
 
-**Backend**
-`FastAPI` `Node.js` `NestJS` `TypeScript` `PostgreSQL` `MySQL` `SQLAlchemy` `Prisma`
+**Systems Analysis and Development** — UNIBRA
 
-**Front-end**
-`React` `TypeScript` `Tailwind CSS`
+Expected graduation: 2027
 
-**Qualidade e infra**
-`Testes automatizados` `Teste por mutação` `Git` `Docker` `Linux` `CI/CD`
+## GitHub Activity
 
----
+<div align="center">
 
-## Como eu trabalho
+<img src="https://github-readme-streak-stats.herokuapp.com?user=RickelmeDSC&theme=tokyonight&hide_border=true" alt="GitHub contribution streak"/>
 
-**Medir antes de concluir — e aceitar quando a medição me contraria.** Defendi processamento em lote num serviço de IA por economizar viagens de rede. Medido, o custo real era memória: 3,7 GB de pico num servidor com 5,1 GB livres. O lote foi reduzido.
+</div>
 
-**Teste por mutação, porque o verde esconde coisa.** Já escrevi um teste chamado "o mesmo desafio não serve duas vezes" que passava — e provava outra coisa. Mutar o código mostrou que ele nunca testou o que o nome dizia.
+<div align="center">
 
-**Desconfiar da régua, não só do resultado.** `tsc --noEmit` reportava "limpo" e olhava zero arquivos. A cobertura da suíte inteira estava abaixo do real porque o coverage perdia o rastro a cada await. A pergunta que encontra esse tipo de coisa: *sobre o que exatamente esta régua opera?*
+**Build with evidence. Measure before optimizing. Document what matters.**
 
-**Declarar a limitação em vez de contorná-la.** Na análise da PNAD, encontrei 40 mil registros de divergência entre uma base curada e a fonte oficial. Não consegui explicar o gap — então documentei a inconsistência em vez de reconciliá-la em silêncio.
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=110&color=0:6366F1,50:0D9488,100:0B1220&section=footer"/>
 
----
-
-<p align="center">
-  <sub>Recife / Olinda, PE • Aberto a oportunidades em dados e desenvolvimento</sub>
-</p>
+</div>
