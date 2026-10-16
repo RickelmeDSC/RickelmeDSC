@@ -255,11 +255,9 @@ Expected graduation: 2027
 
 I enjoy projects where data, engineering, and AI need to work together in the real world.
 
+<a href="https://www.linkedin.com/in/rickelme-david-75630b203/"><img src="https://img.shields.io/badge/LinkedIn-Rickelme%20David-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="mailto:rickelmepe@gmail.com"><img src="https://img.shields.io/badge/E--mail-rickelmepe%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail" /></a>
 <a href="https://github.com/RickelmeDSC"><img src="https://img.shields.io/badge/GitHub-RickelmeDSC-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-<!-- Add your LinkedIn and e-mail badges here, e.g.:
-<a href="https://www.linkedin.com/in/YOUR-PROFILE"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="mailto:YOUR@EMAIL"><img src="https://img.shields.io/badge/E--mail-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail" /></a>
--->
 
 <sub>Data · Engineering · Applied AI · Quality</sub>
 
